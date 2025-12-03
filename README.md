@@ -197,11 +197,13 @@ The test suite includes:
 - User creation and management
 - Expense creation and tracking
 - Equal expense splitting
+- Unequal split options (by percentage or exact amounts)
 - Balance calculation
 - Balance settlement
 - Data persistence
 - Group management
 - Expense history
+- Reset all data
 
 ## Additional Features
 - JSON data storage
@@ -211,7 +213,6 @@ The test suite includes:
 - Detailed balance reports
 
 ## Future Enhancements
-- Unequal split options (by percentage or exact amounts)
 - Web interface
 - Email notifications
 - Expense categories and filtering
