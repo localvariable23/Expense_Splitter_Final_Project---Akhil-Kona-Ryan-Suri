@@ -1,4 +1,3 @@
-# EECE_2140_Final_Project
 
 # Expense Splitter Application
 
@@ -223,6 +222,11 @@ The test suite includes:
 ### Challenge 1: Balance Calculation
 **Problem**: Managing balances between users
 **Solution**: Implemented dual-sided balance tracking where each user maintains their relationships
+
+### Challenge 2: Precision Tracking
+**Problem**: Python floating-point arithmetic caused small rounding errors (e.g., $0.0001), making total balances across all users not sum to exactly zero, creating phantom debts.
+**Solution**: Added threshold checking in the settle_balance method. Any balance smaller than $0.01 is automatically removed from the system, treating it as zero and maintaining financial accuracy.
+
 
 ## Lessons Learned
 - Importance of planning data structures before implementation
